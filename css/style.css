@@ -40,7 +40,8 @@ h1 + p{
 }
 
 .form-control input, 
-.form-control select{
+.form-control select,
+.form-control textarea{
     display: block;
     width: 100%;
     padding: 10px;
@@ -54,4 +55,16 @@ h1 + p{
 .form-control input[type="checkbox"]{
     display: inline-block;
     width: auto;
+}
+
+button{
+    background-color:#4862d8;
+    width: 100%;
+    padding: 10px;
+    display: block;
+    border: 1px solid #777;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
 }
